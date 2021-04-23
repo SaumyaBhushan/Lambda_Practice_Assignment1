@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     stages {
-        stage(pipeline {     agent any      stag 'Build') {
+             stage('Build') {
             steps {
                 echo 'Building..'
             }
